@@ -4,8 +4,8 @@
  * Module dependencies.
  */
 
-// var app = require('../app'); // 运行 js 版本的入口文件
-var app = require("../app2.ts"); // 运行 ts 版本的入口文件
+// var app = require('../app'); // 运行 js 版本的入口文件（已删除）
+var app = require("../app.ts"); // 运行 ts 版本的入口文件
 var debug = require("debug")("express-generator-demo:server");
 var http = require("http");
 
